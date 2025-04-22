@@ -145,6 +145,11 @@ button{
     right: 18px;
 }
 
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
 .fa-arrow-right{
     padding: 0 10px;
     font-size: 17px;
