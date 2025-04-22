@@ -110,11 +110,11 @@ nav ul{
 }
 
 .diff{
-    background-color: #493628;
+    background-color: #D6C0B3;
     border-radius: 10px;
     text-align: left;
     width:500px;
-    height:210px;
+    height:180px;
     padding:15px;
     margin:0 20px;
     display: flex;
@@ -123,11 +123,11 @@ nav ul{
 }
 
 .diff1{
-    background-color: #493628;
+    background-color: #D6C0B3;
     border-radius: 10px;
     text-align: left;
     width:500px;
-    height:210px;
+    height:180px;
     padding:15px;
     margin:0 20px;
     position: relative;
@@ -143,7 +143,7 @@ nav ul{
     position: absolute;
     bottom: 18px;
     right: 18px;
-}*/
+}-->
 
 .fa-arrow-right{
     padding: 0 10px;
