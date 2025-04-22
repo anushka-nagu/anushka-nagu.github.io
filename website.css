@@ -1,0 +1,201 @@
+body{
+  font-family: 'Poppins', sans-serif; 
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Kavoon', sans-serif;
+    color: #493628;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 0.5;
+    margin-left: 50px;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    margin-left: 50px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h3{
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+h4{
+    color:#493628;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 40px;
+    margin: 0;
+    display: inline-block;
+}
+
+li a{
+    color: #493628;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+a:hover{
+    color: #f1f1f1;
+}
+
+nav{
+    background-color: #D6C0B3;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+section{
+    height: 68vh;
+    padding-top: 180px;
+    box-sizing: content-box;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+nav ul{
+    list-style: none;
+    height: 70px;
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+}
+
+
+#about{
+    text-align: center;
+    font-size: 18px;
+}
+
+#skills{
+    text-align: center;
+}
+
+#experience{
+    text-align: center;
+    margin: 0;
+    box-shadow: none;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+#exp{
+    box-shadow: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff{
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    text-align: left;
+    width:500px;
+    height:210px;
+    padding:15px;
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.diff1{
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    text-align: left;
+    width:500px;
+    height:210px;
+    padding:15px;
+    margin:0 20px;
+    position: relative;
+}
+
+button{
+    background-color: #493628;
+    color: #f1f1f1;
+    padding: 10px 18px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+}
+
+.fa-arrow-right{
+    padding: 0 10px;
+    font-size: 17px;
+}
+  
+.tag {
+    font-size: 60px;
+    padding: 20px;
+}
+  
+.skill-item {
+    display: inline-block;
+    margin: 0 40px; /* Adjust spacing between each brand */
+    text-align: center;
+  }
+  
+  /* General styles */
+  .skill-item i {
+    font-size: 36px;
+    color: #754E1A;
+    vertical-align: middle;
+  }
+  
+  .skill-item span {
+    font-size: 28px;
+    color: #754E1A;
+    vertical-align: middle;
+    margin-left: 10px; /* space between icon and text */
+  }
+  
+  /* Customize space between specific icons and text if needed */
+  .skill-item .fa-html5 + span {
+    margin-left: 12px;
+  }
+  
+  .skill-item .fa-css3-alt + span {
+    margin-left: 10px;
+  }
+  
+  .skill-item .fa-database + span {
+    margin-left: 14px;
+  }
+
+img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 3px solid #493628;
+    object-fit: cover;
+    float: right;
+    margin-right: 20px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+
+}
