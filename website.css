@@ -106,7 +106,7 @@ nav ul{
     box-shadow: none;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .diff{
@@ -116,7 +116,6 @@ nav ul{
     width:500px;
     height:200px;
     padding:15px;
-    margin:0 20px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -129,7 +128,6 @@ nav ul{
     width:500px;
     height:200px;
     padding:15px;
-    margin:0 20px;
     position: relative;
 }
 
